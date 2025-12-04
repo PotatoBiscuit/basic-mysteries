@@ -14,6 +14,12 @@ REM -- 3 - Room
 DIM TABLE$(4, 3)
 LET MURDERER = -1
 
+FOR I = 1 TO 4
+	FOR J = 1 TO 3
+		TABLE$(I, J) = "UNKNOWN"
+	NEXT J
+NEXT I
+
 REM -- Initial conditions
 REM -- Sir Raymond in room 10
 LET TABLE$(4, 3) = "10"
