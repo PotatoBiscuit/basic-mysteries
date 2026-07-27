@@ -1,0 +1,74 @@
+Name       : Colonel Sebastian Moran
+Height     : 77
+Hair color : Black
+Eye color  : Blue
+Hat size   : 8
+Shoe size  : 10
+Teeth marks: Normal
+Cigar type : Unknown
+Facial scar: No
+Hand scar  : Yes
+Eye patch  : No
+Bald patch : Yes
+Leg limp   : Unknown
+Tattoo     : No
+
+Name       : Moriarty
+Height     : 69
+Hair color : Brown
+Eye color  : Blue
+Hat size   : Unknown
+Shoe size  : Unknown
+Teeth marks: Gold-filled
+Cigar type : Unknown
+Facial scar: No
+Hand scar  : Unknown
+Eye patch  : No
+Bald patch : Unknown
+Leg limp   : No
+Tattoo     : No
+
+Name       : Dwarf Dwarfsen
+Height     : 48
+Hair color : Black
+Eye color  : Green
+Hat size   : 8
+Shoe size  : 5
+Teeth marks: Crooked
+Cigar type : Londoner
+Facial scar: Yes
+Hand scar  : No
+Eye patch  : Yes
+Bald patch : Unknown
+Leg limp   : No
+Tattoo     : Yes
+
+Name       : Lanky Hank
+Height     : 85
+Hair color : Blonde
+Eye color  : Blue
+Hat size   : 7
+Shoe size  : 15
+Teeth marks: Unknown
+Cigar type : Trichinopoly
+Facial scar: Yes
+Hand scar  : No
+Eye patch  : No
+Bald patch : No
+Leg limp   : Yes
+Tattoo     : Unknown
+
+Name       : John Doe
+Height     : 65
+Hair color : Brown
+Eye color  : Brown
+Hat size   : 7
+Shoe size  : 12
+Teeth marks: Normal
+Cigar type : Heritage
+Facial scar: No
+Hand scar  : No
+Eye patch  : No
+Bald patch : Yes
+Leg limp   : No
+Tattoo     : No
