@@ -6,13 +6,19 @@ GOSUB GET_SUSPECT_INFO
 
 GOSUB OPEN_PERSONS_FILE
 
-WHILE SUSPECT_NAME$ = ""
+WHILE 1
   GOSUB READ_PERSON_FROM_FILE
   GOSUB COMPARE_SUSPECT_TO_PERSON
+  IF SUSPECT_NAME$ <> "" THEN
+    PRINT "The killer could be "; SUSPECT_NAME$; "!"
+    LET SUSPECT_NAME$ = ""
+  END IF
+
+  IF EOF(1) THEN
+    END
+  END IF
 WEND
 
-PRINT "The killer is most likely "; SUSPECT_NAME$; "!"
-END
 
 COMPARE_SUSPECT_TO_PERSON:
   FOR I = 1 TO 13
@@ -35,7 +41,6 @@ GET_SUSPECT_INFO:
 
 READ_PERSON_FROM_FILE:
   IF EOF(1) THEN
-    PRINT "Could not find suspect in persons list, the killer will get away at this rate"
     END
   END IF
 
